@@ -1,0 +1,19 @@
+let x;
+
+const num = new Number(5.4567)
+
+x = num.toString();
+
+x = num.toString().length;
+
+x = num.toFixed(2)
+
+x = num.toPrecision(3)
+
+x = num.toLocaleString('en-US')
+
+x = num.valueOf();
+
+x = Number.MAX_VALUE 
+
+console.log(x)
