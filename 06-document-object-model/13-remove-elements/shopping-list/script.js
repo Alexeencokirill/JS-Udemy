@@ -12,7 +12,7 @@ function removeFirstItem () {
 
 function removeItem (itemNumber) {
     const ul = document.querySelector('ul')
-    const li = document.querySelector(`li:nth-child(${itemnumber})`)
+    const li = document.querySelector(`li:nth-child(${itemNumber})`)
 
     ul.removeChild(li)
 }
